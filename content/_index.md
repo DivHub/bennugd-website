@@ -1,18 +1,7 @@
-+++
-title = "Bennu Game Development"
-
-[blog]
-  show = true
-
-[carousel]
-  images = ["img/placeholder.jpg", "img/explosive-dinosaurs-giveaway.jpg", "img/jarl.png"]
-  show = true
-
-[projects]
-  show = false
-
-+++
-
+---
+title: Bennu Game Development
+linktitle: Home
+---
 
 ## About BennuGD
 

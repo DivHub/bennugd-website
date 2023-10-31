@@ -1,27 +1,25 @@
-+++
-categories = ["general", "language"]
-title = "Text"
+---
+title: Text
+---
 
-+++
-
-A *text* is a text written on screen with texts functions, like [`write()`]({{< ref "/docs/functions/write" >}}) or [`write_int()`]({{< ref "/docs/functions/write_int" >}}). A text is addressed using the associated [`TextID`]({{< ref "/docs/language/textid" >}}).
+A *text* is a text written on screen with texts functions, like [`write()`]({{< ref "/docs/language/functions/write" >}}) or [`write_int()`]({{< ref "/docs/language/functions/write_int" >}}). A text is addressed using the associated [`TextID`]({{< ref "/docs/language/textid" >}}).
 
 There are two kinds of texts:
 
-- **Static text** is any text written with [`write()`]({{< ref "/docs/functions/write" >}}); it is static, because the content of the text cannot be changed after writing, but the text can be moved and deleted.
+- **Static text** is any text written with [`write()`]({{< ref "/docs/language/functions/write" >}}); it is static, because the content of the text cannot be changed after writing, but the text can be moved and deleted.
 
 - **Dynamic text** is any text written with `write_xxx()` functions; it is dynamic because the content of the text always reflects the current value of the variable specified. Of course moving and deleting is also possible.
 
 ## Writing Texts
 
-There are multiple ways to write texts: the [`write()`]({{< ref "/docs/functions/write" >}}) function, `write_xxx()` functions and the [`write_in_map()`]({{< ref "/docs/functions/write_in_map" >}}) function. With the first two, some the global variable `text_z` is important and with all three of them, the following are important:
+There are multiple ways to write texts: the [`write()`]({{< ref "/docs/language/functions/write" >}}) function, `write_xxx()` functions and the [`write_in_map()`]({{< ref "/docs/language/functions/write_in_map" >}}) function. With the first two, some the global variable `text_z` is important and with all three of them, the following are important:
 
-- The functions [`set_text_color()`]({{< ref "/docs/functions/set_text_color" >}}) and [`get_text_color()`]({{< ref "/docs/functions/get_text_color" >}})
+- The functions [`set_text_color()`]({{< ref "/docs/language/functions/set_text_color" >}}) and [`get_text_color()`]({{< ref "/docs/language/functions/get_text_color" >}})
 - The font
-- The [alignment]({{< ref "/docs/constants/alignment" >}})
+- The [alignment]({{< ref "/docs/language/constants/alignment" >}})
 - The global variable `text_flags`
 
-Also the function [`move_text()`]({{< ref "/docs/functions/move_text" >}}) can be handy, as it moves a previously written text to a different location.
+Also the function [`move_text()`]({{< ref "/docs/language/functions/move_text" >}}) can be handy, as it moves a previously written text to a different location.
 
 ## Example
 
@@ -75,6 +73,4 @@ Begin
 End
 ```
 
-Used in example: [`set_fps()`]({{< ref "/docs/functions/set_fps" >}}), [`set_text_color()`]({{< ref "/docs/functions/set_text_color" >}}), [`write()`]({{< ref "/docs/functions/write" >}}), [`write_int()`]({{< ref "/docs/functions/write_int" >}}), [`write_string()`]({{< ref "/docs/functions/write_string" >}}), [`write_float()`]({{< ref "/docs/functions/write_float" >}}), [`key()`]({{< ref "/docs/functions/key" >}}), [`delete_text()`]({{< ref "/docs/functions/delete_text" >}}), text_z, text_flags, fps
-
----
+Used in example: [`set_fps()`]({{< ref "/docs/language/functions/set_fps" >}}), [`set_text_color()`]({{< ref "/docs/language/functions/set_text_color" >}}), [`write()`]({{< ref "/docs/language/functions/write" >}}), [`write_int()`]({{< ref "/docs/language/functions/write_int" >}}), [`write_string()`]({{< ref "/docs/language/functions/write_string" >}}), [`write_float()`]({{< ref "/docs/language/functions/write_float" >}}), [`key()`]({{< ref "/docs/language/functions/key" >}}), [`delete_text()`]({{< ref "/docs/language/functions/delete_text" >}}), text_z, text_flags, fps

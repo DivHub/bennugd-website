@@ -1,8 +1,6 @@
-+++
-categories = ["general", "language"]
-title = "Bit Flags"
-
-+++
+---
+title: Bit Flags
+---
 
 Bit flags are constants which each denotes a single unique case in one situation and can be combined to form different, unique cases.
 
@@ -16,6 +14,7 @@ Bit flags are often used as integers:
 | 0010 | 2 |
 | 0100 | 4 |
 | 1000 | 8 |
+{.table}
 
 These can be combined to form, for example:
 
@@ -25,10 +24,11 @@ These can be combined to form, for example:
 | 0110 | 6 |
 | 1110 | 14 |
 | 0101 | 5 |
+{.table}
 
 ## Example
 
-When we look at [Blit Flags]({{< ref "/docs/constants/blit_flags" >}}) for example, we see the values:
+When we look at [Blit Flags]({{< ref "/docs/language/constants/blit_flags" >}}) for example, we see the values:
 
 | Constant | Value
 |---|---|
@@ -39,6 +39,7 @@ When we look at [Blit Flags]({{< ref "/docs/constants/blit_flags" >}}) for examp
 | `B_ABLEND` | 16 |
 | `B_SBLEND` | 32 |
 | `B_NOCOLORKEY` | 128 |
+{.table}
 
 These are all single unique cases and can be combined to form different unique cases. For example, when we want a translucent, horizontally mirrored blit operation with use of additive blending, we would do:
 

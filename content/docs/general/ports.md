@@ -1,10 +1,8 @@
-+++
-categories = ["general"]
-title = "Ports"
+---
+title: Ports
+---
 
-+++
-
-To make a simple port of Bennu and the modules, all is needed is the source, SDL, SDL_mixer, autoconf and make. With those, it can be compiled to virtually any platform.
+To make a simple port of Bennu and the modules, all is needed is the source, [SDL](https://www.libsdl.org/), SDL_mixer, autoconf and make. With those, it can be compiled to virtually any platform.
 
 ## Current official ports:
 

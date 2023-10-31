@@ -1,0 +1,21 @@
+baseURL = 'https://divhub.github.io/bennugd-website/'
+languageCode = 'en-us'
+title = 'BennuGD'
+theme = 'hextra'
+
+disableKinds = ['taxonomy', 'term']
+
+[params.navbar.logo]
+  path = 'img/logo.png'
+
+[params.editURL]
+  enable = true
+  base = 'https://github.com/DivHub/bennugd-website'
+
+[markup.goldmark.renderer]
+  unsafe = true
+[markup.goldmark.parser.attribute]
+	block = true
+
+[markup.highlight]
+	codeFences = false

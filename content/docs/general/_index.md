@@ -1,8 +1,10 @@
-+++
-title = "General"
-weight = 1
+---
+title: General
+weight: 1
+---
 
-+++
-
-Lorem markdownum certa tangere cuique conchaeque quod. Nunc alto per feros,
-simulat di infert petitur comites.
+{{< cards >}}
+    {{< card link="hello-world" title="Hello World" >}}
+    {{< card link="installation" title="Instalation" >}}
+    {{< card link="ports" title="Ports" >}}
+{{< /cards >}}

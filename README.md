@@ -10,9 +10,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 To run this website locally, you need `hugo`, at least version `0.43`. The [official Hugo installation guide](https://gohugo.io/getting-started/installing/) is a good starting point.
 
+## Initial Setup
+
+```
+git submodule init
+hugo serve
+```
+
 ## Deployment
 
-The deployment of this website is [managed using TravisCI](https://www.travis-ci.org/DivHub/bennugd-website/) and Github Pages.
+The deployment of this website is managed trough GitHub Actions and GitHub Pages.
 
 The live version always corresponds to the `master` branch, and can be seen in [divhub.github.io/bennugd-website/](https://divhub.github.io/bennugd-website/).
 

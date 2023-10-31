@@ -1,8 +1,6 @@
-+++
-categories = ["guide", "tutorial"]
-title = "Windgate's Tutorial"
-
-+++
+---
+title: Windgate's Tutorial
+---
 
 
 This tutorial, originally made by Windgate for [Trinit](https://trinit.es/), tries to serve as a great starting point for those new to Bennu.
@@ -30,6 +28,7 @@ When choosing your spritesets please take into account:
 | Views | Top, side or isometric. It's usually easier to start with side-view spritesets. |
 | Animations | Your character should NOT be able to perform more actions than those defined in its spriteset. |
 | Resolutions | The size in pixels of each animation (Sprite) is a good indication of the quality of the animation. |
+{.table}
 
 Notice that Image I corresponds to an isometric-view spriteset, without any jump animation and with a medium resolution: not as high as that found in Street Fighter II nor as low as that found in the first Super Mario Bros.
 

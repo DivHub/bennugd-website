@@ -1,8 +1,6 @@
-+++
-categories = ["general", "language"]
-title = "Process"
-
-+++
+---
+title: Process
+---
 
 ## Syntax
 
@@ -32,6 +30,7 @@ End
 | `[ ... ]` | optional |
 | `( ... )*` | 0 or more times |
 | `( ... )+` | 1 or more times |
+{.table}
 
 ## Description
 
@@ -107,7 +106,7 @@ Begin
 End
 ```
 
-Used in example: [`map_new()`]({{< ref "/docs/functions/map_new" >}}), [`map_clear()`]({{< ref "/docs/functions/map_clear" >}}), [`key()`]({{< ref "/docs/functions/key" >}}), [`advance()`]({{< ref "/docs/functions/advance" >}}), [`map_unload()`]({{< ref "/docs/functions/map_unload" >}}),[`let_me_alone()`]({{< ref "/docs/functions/let_me_alone" >}}), Process, Begin, End, Loop, Repeat, [graph]({{< ref "/docs/variables/graph" >}}), angle
+Used in example: [`map_new()`]({{< ref "/docs/language/functions/map_new" >}}), [`map_clear()`]({{< ref "/docs/language/functions/map_clear" >}}), [`key()`]({{< ref "/docs/language/functions/key" >}}), [`advance()`]({{< ref "/docs/language/functions/advance" >}}), [`map_unload()`]({{< ref "/docs/language/functions/map_unload" >}}),[`let_me_alone()`]({{< ref "/docs/language/functions/let_me_alone" >}}), Process, Begin, End, Loop, Repeat, [graph]({{< ref "graph" >}}), angle
 
 And when the `SpaceShip` process ends - because the code of it reached the End or something sent an `s_kill` signal - the `OnExit` code starts. In this example it will unload the memory used for the created graphic. If there is no `OnExit` code, the process will just end.
 

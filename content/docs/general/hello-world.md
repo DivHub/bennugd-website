@@ -1,8 +1,6 @@
-+++
-categories = ["general"]
-title = "Hello World"
-
-+++
+---
+title: Hello World
+---
 
 The Bennu **Hello World!** Example.
 
@@ -15,4 +13,4 @@ Begin // start the code
 End // end the definition of the main process
 ```
 
-This will import the module [`mod_say`]({{< ref "/docs/modules/mod_say" >}}) which contains the definition of the [`say()`]({{< ref "/docs/functions/say" >}}) function. The function will echo the argument "Hello World" to the screen.
+This will import the module [`mod_say`]({{< ref "docs/language/modules/mod_say" >}}) which contains the definition of the [`say()`]({{< ref "/docs/language/functions/say" >}}) function. The function will echo the argument "Hello World" to the screen.
