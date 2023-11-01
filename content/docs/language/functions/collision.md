@@ -23,7 +23,7 @@ See also [`collision_box()`]({{< ref "/docs/language/functions/collision_box" >}
 INT : The ID of the collided process.
 
 - `0` - No collision
-- `>0` - The processID of the [`process`]({{< ref "process" >}}) colliding with the current [`process`]({{< ref "process" >}})
+- `>0` - The processID of the [`process`]({{< ref "docs/language/process" >}}) colliding with the current [`process`]({{< ref "docs/language/process" >}})
 
 ## Example
 

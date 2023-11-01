@@ -66,4 +66,4 @@ Begin
 End
 ```
 
-Used in example: [`exists()`]({{< ref "/docs/functions/exists" >}}), [`say()`]({{< ref "/docs/functions/say" >}}), [`let_me_alone()`]({{< ref "/docs/functions/let_me_alone" >}}).
+Used in example: [`exists()`]({{< ref "/docs/language/functions/exists" >}}), [`say()`]({{< ref "/docs/language/functions/say" >}}), [`let_me_alone()`]({{< ref "/docs/language/functions/let_me_alone" >}}).
