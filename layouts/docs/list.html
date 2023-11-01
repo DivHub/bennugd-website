@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <div class='mx-auto flex {{ partial "utils/page-width" . }}'>
+    {{ partial "sidebar.html" (dict "context" .) }}
+    {{ partial "toc.html" . }}
+    <article class="w-full break-words flex min-h-[calc(100vh-var(--navbar-height))] min-w-0 justify-center pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="w-full min-w-0 max-w-6xl px-6 pt-4 md:px-12">
+        {{ partial "breadcrumb.html" . }}
+        <div class="content">
+          <h1>{{ .Title }}</h1>
+          {{ .Content }}
+        </div>
+        <div class="hextra-cards mt-4 gap-4 grid not-prose" style="--rows: 3;">
+          {{ range .Pages }}
+            <a href="{{ .Permalink | relLangURL }}" class="hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900">
+              <span class="flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50">
+                {{ .Title }}
+              </span>
+            </a>
+          {{ end }}      
+        </div>
+        {{ partial "components/last-updated.html" . }}
+        {{ partial "components/pager.html" . }}
+        {{ partial "components/comments.html" . }}
+      </main>
+    </article>
+  </div>
+{{ end }}
