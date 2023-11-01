@@ -27,6 +27,24 @@ disableKinds = ['taxonomy', 'term']
     [menu.main.params]
       type = 'search'
 
+[[menu.sidebar]]
+  identifier = "more"
+  name = "Community"
+  weight = 1
+  [menu.sidebar.params]
+    type = "separator"
+[[menu.sidebar]]
+  identifier = "Discord"
+  name = "Discord ↗"
+  url = "https://discord.gg/CAKr9QR"
+  weight = 2
+[[menu.sidebar]]
+  identifier = "Forum"
+  name = "Forum ↗"
+  url = "https://forum.bennugd.org/"
+  weight = 3
+
+
 [markup.goldmark.renderer]
   unsafe = true
 [markup.goldmark.parser.attribute]
