@@ -23,8 +23,8 @@ Also called `mem_calloc()`.
 
 VOID POINTER : Pointer to the first element of the allocated memory block.
 
-- NULL - There was are an error allocating the memory, like insufficient memory available.
-- !NULL - Pointer to the first element of the allocated memory block.
+- `NULL`    - There was are an error allocating the memory, like insufficient memory available.
+- `!NULL`  - Pointer to the first element of the allocated memory block.
 
 ## Example
 
@@ -40,7 +40,6 @@ IMPORT "mod_say";
 IMPORT "mod_debug";
 IMPORT "mod_mem";
 
-
 /*
     calloc(int size,type);
     returns: void pointer
@@ -50,13 +49,8 @@ IMPORT "mod_mem";
 GLOBAL
 
 int pointer p_array;        // 10 elments, created with calloc()
-
 int elements=10;            // initial array size
-
-
 int count;                  // general purpose loop counter
-
-
 
 PROCESS main();
 

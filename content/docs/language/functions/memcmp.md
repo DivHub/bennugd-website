@@ -21,11 +21,12 @@ Also called `mem_cmp()`.
 ## Returns
 
 INT : Difference
-- 0   - The blocks of memory are identical.
-- >0  - The first differing byte in both memory blocks has a greater value in ptr1.
-- <0  - The first differing byte in both memory blocks has a greater value in ptr2.
 
-A byte ranges from 0 to 255, meaning 189 is a greater value than 105.
+- `0` - The blocks of memory are identical.
+- `>0` - The first differing byte in both memory blocks has a greater value in ptr1.
+- `<0` - The first differing byte in both memory blocks has a greater value in ptr2.
+
+A byte ranges from `0` to `255`, meaning `189` is a greater value than `105`.
 
 ## Example
 

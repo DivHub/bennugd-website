@@ -12,7 +12,7 @@ Sets the current path of execution.
 
 ## Parameters
 
-- STRING directoryname  - The name of the directory to be entered from the current path of execution or a new path of execution.
+- STRING directoryname - The name of the directory to be entered from the current path of execution or a new path of execution.
 
 ## Returns
 

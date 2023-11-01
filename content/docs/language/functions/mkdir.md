@@ -12,7 +12,7 @@ Creates a new directory in the current path of execution with a certain name.
 
 ## Parameters
 
-- STRING directoryname  - The name of the directory to be created.
+- STRING directoryname - The name of the directory to be created.
 
 ## Returns
 

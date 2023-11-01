@@ -21,7 +21,6 @@ INT : The result of the check
 - `0` (false) - The process with given processID is not alive or there are no processes alive of the given processTypeID.
 - `1` (true)  - The process with given processID is alive or there is at least one process alive of the given processTypeID.
 
-
 ## Example
 
 ```
@@ -67,4 +66,4 @@ Begin
 End
 ```
 
-Used in example: [`exists()`]({{< ref "/docs/language/functions/exists" >}}), [`say()`]({{< ref "/docs/language/functions/say" >}}), [`let_me_alone()`]({{< ref "/docs/language/functions/let_me_alone" >}}).
+Used in example: [`exists()`]({{< ref "/docs/functions/exists" >}}), [`say()`]({{< ref "/docs/functions/say" >}}), [`let_me_alone()`]({{< ref "/docs/functions/let_me_alone" >}}).

@@ -21,8 +21,6 @@ Note that it is highly recommended to use [`chdir()`]({{< ref "/docs/language/fu
 ## Example
 
 ```
-```
-```
 import "mod_dir"
 import "mod_say"
 import "mod_key"

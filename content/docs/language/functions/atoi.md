@@ -17,5 +17,3 @@ Returns the int value of the number specified in a certain string.
 ## Returns
 
 INT : The int value of the number specified by the specified string.
-
-## Example

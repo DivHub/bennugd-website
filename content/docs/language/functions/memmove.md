@@ -16,9 +16,9 @@ Also called `mem_move()`.
 
 ## Parameters
 
-- VOID POINTER destination    - Pointer to the first byte of the destination.
-- VOID POINTER origin     - Pointer to the first byte of the origin.
-- INT size
+- VOID POINTER destination - Pointer to the first byte of the destination.
+- VOID POINTER origin - Pointer to the first byte of the origin.
+- INT size - The size of the to be copied memory in bytes.
 
 ## Returns
 
@@ -64,7 +64,6 @@ OnExit
     free(pbyte);
 
 End
-
 ```
 
 Used in example: alloc(), memmove(), say(), free(), array, pointer
