@@ -19,7 +19,7 @@ disableKinds = ['taxonomy', 'term']
 
 [params.editURL]
   enable = true
-  base = 'https://github.com/DivHub/bennugd-website/edit/master/content'
+  base = 'https://github.com/DivHub/bennugd-website/edit/main/content'
 
 [menu]
 [[menu.main]]

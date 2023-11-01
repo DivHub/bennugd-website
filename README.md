@@ -21,7 +21,7 @@ hugo serve
 
 The deployment of this website is managed trough GitHub Actions and GitHub Pages.
 
-The live version always corresponds to the `master` branch, and can be seen in [divhub.github.io/bennugd-website/](https://divhub.github.io/bennugd-website/).
+The live version always corresponds to the `main` branch, and can be seen in [divhub.github.io/bennugd-website/](https://divhub.github.io/bennugd-website/).
 
 ## Authors
 
