@@ -5,6 +5,15 @@ theme = 'hextra'
 
 disableKinds = ['taxonomy', 'term']
 
+[params.page]
+  width = 'normal'
+
+[params.footer]
+  width = 'normal'
+
+[params.navbar]
+  width = 'normal'
+
 [params.navbar.logo]
   path = 'img/logo.png'
 
