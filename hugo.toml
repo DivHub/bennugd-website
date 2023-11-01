@@ -12,6 +12,12 @@ disableKinds = ['taxonomy', 'term']
   enable = true
   base = 'https://github.com/DivHub/bennugd-website'
 
+[menu]
+[[menu.main]]
+    name = 'Search'
+    [menu.main.params]
+      type = 'search'
+
 [markup.goldmark.renderer]
   unsafe = true
 [markup.goldmark.parser.attribute]
