@@ -44,11 +44,7 @@ disableKinds = ['taxonomy', 'term']
   url = "https://forum.bennugd.org/"
   weight = 3
 
-
 [markup.goldmark.renderer]
   unsafe = true
 [markup.goldmark.parser.attribute]
 	block = true
-
-[markup.highlight]
-	codeFences = false
